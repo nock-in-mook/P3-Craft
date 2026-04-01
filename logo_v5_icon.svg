@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- V5: 正方形アイコン - 重なる円 -->
+  <rect width="200" height="200" rx="32" fill="#fafafa"/>
+  <!-- 緑の円 -->
+  <circle cx="80" cy="72" r="42" fill="#27ae60" opacity="0.85"/>
+  <!-- オレンジの円（重なり） -->
+  <circle cx="120" cy="72" r="42" fill="#e67e22" opacity="0.75"/>
+  <!-- P3 テキスト -->
+  <text x="75" y="82" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" font-size="30" fill="white" text-anchor="middle">P</text>
+  <text x="125" y="82" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" font-size="30" fill="white" text-anchor="middle">3</text>
+  <!-- Craft -->
+  <text x="100" y="155" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="38" fill="#2c3e50" text-anchor="middle" letter-spacing="4">Craft</text>
+</svg>

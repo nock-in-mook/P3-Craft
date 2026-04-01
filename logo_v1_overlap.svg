@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <!-- パターン1: P3が重なる幾何学デザイン -->
+  <defs>
+    <style>
+      .text-craft { font-family: 'Segoe UI', Arial, sans-serif; font-weight: 300; font-size: 36px; fill: #333; letter-spacing: 8px; }
+    </style>
+  </defs>
+  <!-- 緑の円 -->
+  <circle cx="50" cy="50" r="35" fill="#2ecc71" opacity="0.85"/>
+  <!-- オレンジの円（重なり） -->
+  <circle cx="78" cy="50" r="35" fill="#e67e22" opacity="0.75"/>
+  <!-- 重なり部分が自然に混色 -->
+  <!-- P3 テキスト -->
+  <text x="48" y="62" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="32" fill="white" text-anchor="middle">P</text>
+  <text x="80" y="62" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="32" fill="white" text-anchor="middle">3</text>
+  <!-- Craft テキスト -->
+  <text x="140" y="62" class="text-craft">Craft</text>
+</svg>

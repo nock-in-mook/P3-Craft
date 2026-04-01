@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <!-- パターン4: モダン・ミニマル、3つの重なる葉/ペタル -->
+  <defs>
+    <style>
+      .brand { font-family: 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <!-- 3つの重なる楕円（P3の3にちなんで） -->
+  <ellipse cx="45" cy="45" rx="28" ry="18" fill="#27ae60" opacity="0.8" transform="rotate(-30, 45, 45)"/>
+  <ellipse cx="60" cy="40" rx="28" ry="18" fill="#e67e22" opacity="0.7" transform="rotate(30, 60, 40)"/>
+  <ellipse cx="52" cy="58" rx="28" ry="18" fill="#2ecc71" opacity="0.6" transform="rotate(0, 52, 58)"/>
+  <!-- P3 -->
+  <text x="52" y="55" class="brand" font-weight="800" font-size="22" fill="white" text-anchor="middle">P3</text>
+  <!-- Craft -->
+  <text x="105" y="65" class="brand" font-weight="300" font-size="42" fill="#2c3e50" letter-spacing="4">Craft</text>
+</svg>

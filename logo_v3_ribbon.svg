@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <!-- パターン3: リボン状の重なり -->
+  <defs>
+    <style>
+      .main-text { font-family: 'Segoe UI', Arial, sans-serif; font-weight: 700; font-size: 48px; }
+    </style>
+  </defs>
+  <!-- 緑の帯 -->
+  <rect x="15" y="25" width="120" height="30" rx="6" fill="#2ecc71" transform="rotate(-3, 75, 40)"/>
+  <!-- オレンジの帯（重なり） -->
+  <rect x="30" y="50" width="120" height="30" rx="6" fill="#e67e22" transform="rotate(2, 90, 65)"/>
+  <!-- P3 Craft テキスト -->
+  <text x="20" y="78" class="main-text" fill="#2c3e50">P3</text>
+  <text x="105" y="78" font-family="'Segoe UI', Arial, sans-serif" font-weight="300" font-size="48" fill="#2c3e50">Craft</text>
+</svg>

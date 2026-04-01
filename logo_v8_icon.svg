@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- V8: 正方形アイコン - 大胆な重なり -->
+  <rect width="200" height="200" rx="32" fill="#fafafa"/>
+  <!-- 大きな緑の半円（左） -->
+  <circle cx="75" cy="70" r="50" fill="#27ae60" opacity="0.85"/>
+  <!-- 大きなオレンジの半円（右） -->
+  <circle cx="125" cy="70" r="50" fill="#e67e22" opacity="0.75"/>
+  <!-- P3 テキスト（重なり部分に） -->
+  <text x="100" y="80" font-family="'Segoe UI', Arial, sans-serif" font-weight="900" font-size="36" fill="white" text-anchor="middle">P3</text>
+  <!-- Craft -->
+  <text x="100" y="160" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="36" fill="#2c3e50" text-anchor="middle" letter-spacing="5">Craft</text>
+</svg>
