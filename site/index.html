@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>P3 Craft</title>
+<meta name="description" content="P3 Craft - アプリの企画・開発・運営">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+  :root {
+    --green: #2ecc71;
+    --orange: #e67e22;
+    --dark: #1a1a2e;
+    --text: #2c3e50;
+    --bg: #fafafa;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* 言語切替 */
+  .lang-switch {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+  }
+  .lang-switch button {
+    background: white;
+    border: 2px solid #ddd;
+    padding: 6px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+    transition: all 0.2s;
+  }
+  .lang-switch button:hover {
+    border-color: var(--green);
+    color: var(--green);
+  }
+  .lang-switch button.active {
+    background: var(--green);
+    border-color: var(--green);
+    color: white;
+  }
+
+  /* ヒーロー */
+  .hero {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 24px 40px;
+    text-align: center;
+  }
+
+  .logo-icon {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 32px;
+  }
+
+  h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+  }
+  h1 .p3 { color: var(--green); }
+  h1 .craft { color: var(--orange); }
+
+  .tagline {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 48px;
+    line-height: 1.6;
+  }
+
+  /* サービス */
+  .services {
+    display: flex;
+    gap: 32px;
+    max-width: 800px;
+    margin: 0 auto 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .service-card {
+    background: white;
+    border-radius: 16px;
+    padding: 28px 24px;
+    width: 220px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    text-align: center;
+  }
+  .service-card .icon {
+    font-size: 36px;
+    margin-bottom: 12px;
+  }
+  .service-card h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: var(--text);
+  }
+  .service-card p {
+    font-size: 13px;
+    color: #888;
+    line-height: 1.5;
+  }
+
+  /* コンタクト */
+  .contact {
+    text-align: center;
+    padding: 40px 24px;
+    background: white;
+    border-top: 1px solid #eee;
+  }
+  .contact h2 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  .contact a {
+    color: var(--green);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .contact a:hover {
+    text-decoration: underline;
+  }
+
+  /* フッター */
+  footer {
+    text-align: center;
+    padding: 24px;
+    font-size: 13px;
+    color: #aaa;
+  }
+
+  /* 言語表示制御 */
+  .lang-hidden { display: none !important; }
+
+  /* レスポンシブ */
+  @media (max-width: 600px) {
+    h1 { font-size: 36px; }
+    .services { flex-direction: column; align-items: center; }
+    .logo-icon { width: 100px; height: 100px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- 言語切替 -->
+<div class="lang-switch">
+  <button id="btn-ja" class="active" onclick="switchLang('ja')">JA</button>
+  <button id="btn-en" onclick="switchLang('en')">EN</button>
+</div>
+
+<!-- ヒーロー -->
+<section class="hero">
+  <img src="logo.svg" alt="P3 Craft" class="logo-icon">
+  <h1><span class="p3">P3</span> <span class="craft">Craft</span></h1>
+
+  <p class="tagline" lang="ja">アプリの企画・開発・運営</p>
+  <p class="tagline" lang="en">App Planning, Development & Operations</p>
+
+  <!-- サービス -->
+  <div class="services">
+    <div class="service-card">
+      <div class="icon">📱</div>
+      <h3 lang="ja">モバイルアプリ開発</h3>
+      <h3 lang="en">Mobile App Development</h3>
+      <p lang="ja">iOS・Android対応のアプリを企画から開発・運営まで一貫して行います。</p>
+      <p lang="en">We plan, develop, and operate apps for both iOS and Android platforms.</p>
+    </div>
+    <div class="service-card">
+      <div class="icon">🎨</div>
+      <h3 lang="ja">UI/UXデザイン</h3>
+      <h3 lang="en">UI/UX Design</h3>
+      <p lang="ja">使いやすさを追求した、直感的なインターフェースを設計します。</p>
+      <p lang="en">We design intuitive interfaces focused on usability and user experience.</p>
+    </div>
+    <div class="service-card">
+      <div class="icon">⚡</div>
+      <h3 lang="ja">継続的な改善</h3>
+      <h3 lang="en">Continuous Improvement</h3>
+      <p lang="ja">ユーザーの声を反映し、アプリを継続的にアップデートします。</p>
+      <p lang="en">We continuously update our apps based on user feedback.</p>
+    </div>
+  </div>
+</section>
+
+<!-- コンタクト -->
+<section class="contact">
+  <h2 lang="ja">お問い合わせ</h2>
+  <h2 lang="en">Contact</h2>
+  <a href="mailto:info@p3craft.com">info@p3craft.com</a>
+</section>
+
+<!-- フッター -->
+<footer>
+  <span lang="ja">&copy; 2026 P3 Craft. All rights reserved.</span>
+  <span lang="en">&copy; 2026 P3 Craft. All rights reserved.</span>
+</footer>
+
+<script>
+function switchLang(lang) {
+  document.documentElement.lang = lang;
+  document.getElementById('btn-ja').className = lang === 'ja' ? 'active' : '';
+  document.getElementById('btn-en').className = lang === 'en' ? 'active' : '';
+  document.querySelectorAll('[lang="ja"]').forEach(el => {
+    el.classList.toggle('lang-hidden', lang !== 'ja');
+  });
+  document.querySelectorAll('[lang="en"]').forEach(el => {
+    el.classList.toggle('lang-hidden', lang !== 'en');
+  });
+}
+// 初期化
+switchLang('ja');
+</script>
+
+</body>
+</html>

@@ -11,7 +11,7 @@
 ### ドメイン・Web・メール
 
 - [x] p3craft.com ドメインを取得（Cloudflare Registrar）
-- [ ] 簡易Webサイトを作成（屋号・事業概要・1ページでOK）
+- [x] 簡易Webサイトを作成（Cloudflare Pages、日英対応）
 - [x] 独自ドメインのメールアドレスを用意（iCloud+カスタムドメイン）
 - [x] メールの送受信テストを確認（Apple認証で失敗するとロックされる）
 
