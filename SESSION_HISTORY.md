@@ -1396,3 +1396,6 @@ DUNS申請の件。ちょっと相談したい
 ### 次回やること
 - Appleサポートからの返信に対応
 - ダメならD&B Japan直接申請（https://www.tsr-net.co.jp/duns/）
+
+---
+## P3Craft_004_SearchConsole通知確認 (2026-04-06)
