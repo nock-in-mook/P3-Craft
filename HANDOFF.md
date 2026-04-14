@@ -10,16 +10,19 @@
 - Webサイト: Cloudflare Pagesにデプロイ済み（SEO対策込み）
 - ロゴ: 仮ロゴ使用中
 
-## D-U-N-S申請の状況（2026-04-10）
-**Apple経由でD-U-N-S新規作成リクエスト送信済み** ✅
-- Appleサポート（ケース番号: 102861942970）の案内に従い、D-U-N-S Lookupページの「submit your information.」リンクから申請完了
-- D-U-N-S番号が `info@p3craft.com` に届くのを待つ（通常2〜3週間）
+## D-U-N-S申請の状況（2026-04-15）
+**東京商工リサーチ（D&B Japan）がD&Bへ申請送信** ✅
+- 2026-04-15 東京商工リサーチから「本日D&Bへ申請を出した」と連絡
+- D-U-N-S番号発行 → D&B本体DB反映 → Apple側lookup同期 の流れを待つ
 
 **注意**: 以前誤って送信されたP3, K.K.のD-U-N-S番号は使わないこと。
 
 ## 次のアクション
-1. **D-U-N-S番号の発行メールを待つ**（2〜3週間目安）
-2. D-U-N-S取得後 → Phase 2（Apple Developer / Google Play 登録）へ
+1. **D-U-N-S番号の発行連絡を待つ**
+2. 番号到着後、Apple公式lookup（https://developer.apple.com/enroll/duns-lookup/ ）で引けるか確認
+   - 検索条件: 会社名=P3 Craft（英語表記）/ 国=Japan / 住所=申請時の住所
+   - Apple lookup で引けることが Apple Developer 申請の前提
+3. 引けたら Phase 2（Apple Developer / Google Play 登録）へ
 
 ## 保留事項
 - ロゴデザイン: ユーザーが手書きスケッチを準備してから再検討
