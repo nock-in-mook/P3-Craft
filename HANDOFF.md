@@ -17,9 +17,19 @@
 
 **注意**: 以前誤って送信されたP3, K.K.のD-U-N-S番号は使わないこと。
 
-## 次のアクション
-1. **Phase 2: Apple Developer Program に組織アカウントとして登録申請**
-2. Google Play Developer 登録
+## 次のアクション（4/21 月曜 9:00以降）
+1. **Apple Developerサポートに電話: 0120-9333-88**（月〜金 9:00〜17:00）
+   - 伝えること:
+     - 「個人事業主だが、D-U-N-S番号を取得済み。組織として登録したい」
+     - D-U-N-S番号: 699016309
+     - 屋号: P3 Craft
+     - ドメインメール: info@p3craft.com
+     - Webサイト: p3craft.com
+   - 追加書類を求められる可能性あり:
+     - 開業届PDF: `提出書類/P3 Craft.pdf`
+     - 身分証明書（運転免許証 or マイナンバーカード）
+   - 参考事例: https://qiita.com/GoHiromi/items/890de3fe5811d357e4bc
+2. Apple Developer承認後 → Google Play Developer 登録
 
 ## 保留事項
 - ロゴデザイン: ユーザーが手書きスケッチを準備してから再検討
