@@ -8,7 +8,7 @@
 - ドメイン: p3craft.com 取得済み（Cloudflare）
 - メール: info@p3craft.com 稼働中
 - Webサイト: Cloudflare Pagesにデプロイ済み（SEO対策込み）
-- ロゴ: 仮ロゴ使用中
+- **ロゴ確定**: `icons_generated/favorites/p3craft_logo_final.png`（Inter ExtraBold, 緑オレンジ三角パターン）
 
 ## D-U-N-S番号（2026-04-17 確認済み）
 **D-U-N-S番号: 699016309** ✅
@@ -44,7 +44,7 @@
 4. **アプリ開発開始（Phase 3）**
 
 ## 保留事項
-- ロゴデザイン: ユーザーが手書きスケッチを準備してから再検討
+- ~~ロゴデザイン~~: **確定済み**
 - Thunderbird設定: メールが必要になったタイミングで
 
 ## 技術メモ
