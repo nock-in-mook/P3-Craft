@@ -3529,3 +3529,41 @@ C:\Users\msp\AppData\Local\Temp\claude_screenshots\ss_20260422_170602.png
 ↓
 (作業)
 ↓
+
+---
+
+## 📅 2026-04-22 08:11 セッション
+
+🧑 あなた
+session
+
+🤖 Claude
+📡
+
+セッション開始処理を実行します。
+
+↓
+(作業)
+↓
+
+🤖 Claude
+ファイルは全て揃ってる。セッション#10開始。
+
+前回までの状況を把握済み：
+- **Apple Developer Program**: 承認＆支払い完了 ✅
+- **Google Play Developer**: 登録済み・$25支払い済み・**本人確認 審査待ち**
+- 次のステップ: Google審査結果待ち → アプリ開発開始（Phase 3）
+
+何する？
+
+---
+## #11 (2026-04-25)
+セッション内容:
+- Apple W-8BEN-E提出完了（Inter ExtraBoldで源泉徴収0%適用）
+- Google W-8BEN提出完了（お支払いプロファイル作成・銀行口座追加）
+- 有料アプリ契約署名・EU DSAコンプライアンス対応
+- Seleniumブラウザ操作ツール作成（tools/selenium_browse.py）
+- アイコンガチャ生成（Imagen 4で244枚生成、お気に入り選定）
+- ロゴ確定: Inter ExtraBold + 緑オレンジ三角パターン
+- 商標・意匠登録は当面不要（売上が出てから検討）
+
