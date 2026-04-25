@@ -3567,3 +3567,18 @@ session
 - ロゴ確定: Inter ExtraBold + 緑オレンジ三角パターン
 - 商標・意匠登録は当面不要（売上が出てから検討）
 
+
+---
+## #12 P3Craft_012_Webサイト確定ロゴ反映＋SEO強化＋GooglePlay完了 (2026-04-25)
+
+### やったこと
+- **Google Play Console**: 15%サービス手数料プログラム登録完了、ウェブサイト確認・電話番号確認完了 → Phase 2 完全完了
+- **Webサイト ロゴ反映**: 確定ロゴ(`p3craft_logo_final.png`)をsite/logo.pngに配置、ヒーローのSVGロゴと差し替え
+- **ロゴ画像処理**: 中央からflood fillでグレー枠を除去し白角丸ロゴ部分のみくりぬき (`tools/remove_logo_border.py`)
+- **デザイン整理**: テキスト見出しh1削除→ロゴ画像をh1代わりに、サイト背景白統一、drop-shadow削除、ロゴ拡大(240/180px)
+- **住所表示**: コンタクトセクションに事業所住所を追加（日英対応）、JSON-LDにPostalAddress追加
+- **SEO強化**: title/description/keywords/JSON-LD alternateName/本文(ruby) に「ピースリークラフト」「P3クラフト」追記
+- **Search Console**: URL検査→インデックス登録リクエスト送信、サイトマップは既登録確認
+
+### 次回のスタート地点
+- Phase 2 完全終了。**Phase 3: アプリ開発の開始** が次の大きな一手

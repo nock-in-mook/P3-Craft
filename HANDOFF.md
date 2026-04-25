@@ -7,8 +7,9 @@
 - **税務署受理済の届出書PDF**: `提出書類/P3 Craft.pdf`（屋号・住所行に赤線、本体＋受理メール詳細を1ファイルに結合）
 - ドメイン: p3craft.com 取得済み（Cloudflare）
 - メール: info@p3craft.com 稼働中
-- Webサイト: Cloudflare Pagesにデプロイ済み（SEO対策込み）
+- Webサイト: Cloudflare Pagesにデプロイ済み（**確定ロゴ反映＋住所表示＋カタカナSEO対応済み**）
 - **ロゴ確定**: `icons_generated/favorites/p3craft_logo_final.png`（Inter ExtraBold, 緑オレンジ三角パターン）
+- サイト用ロゴ `site/logo.png`: グレー枠を除去し白角丸ロゴ部分のみくりぬき（`tools/remove_logo_border.py`）
 
 ## D-U-N-S番号（2026-04-17 確認済み）
 **D-U-N-S番号: 699016309** ✅
@@ -40,6 +41,13 @@
 ## 次のアクション
 1. デベロッパープロフィールの充実（アイコン・紹介テキスト）※後回しでもOK
 2. **アプリ開発開始（Phase 3）** 🚀
+3. （任意）数日後にGoogle検索で「ピースリークラフト」「P3クラフト」がヒットするか確認
+
+## SEO対策状況（2026-04-25）
+- ピースリークラフト/P3クラフト等のカタカナ表記をtitle/description/keywords/JSON-LD/本文に追加
+- Search Consoleで `https://p3craft.com/` をURL検査→インデックス登録リクエスト済み
+- サイトマップ送信済み（`https://p3craft.com/sitemap.xml`）
+- 反映には数日〜1週間かかる見込み
 
 ## 保留事項
 - ~~ロゴデザイン~~: **確定済み**
