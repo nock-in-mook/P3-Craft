@@ -111,7 +111,8 @@
   }
 
   h1 {
-    margin: 0 0 32px 0;
+    /* logo.png 内に透明余白 約23px あり、見た目で 36px の余白にするため 13px */
+    margin: 0 0 13px 0;
     line-height: 0;
   }
   .logo-icon {
@@ -121,6 +122,14 @@
     height: auto;
   }
 
+  .slogan {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--text);
+    margin: 0 0 36px 0;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+  }
   .tagline {
     font-size: 18px;
     color: #666;
@@ -211,6 +220,7 @@
   @media (max-width: 600px) {
     .services { flex-direction: column; align-items: center; }
     .logo-icon { width: 180px; height: 180px; }
+    .slogan { font-size: 18px; }
   }
 </style>
 </head>
@@ -226,9 +236,8 @@
 <section class="hero">
   <h1><img src="logo.png" alt="P3 Craft" class="logo-icon"></h1>
 
-  <p class="tagline" lang="ja">アプリの企画・開発・運営</p>
-  <p class="tagline" lang="en">App Planning, Development & Operations</p>
-  <p class="reading" lang="ja">読み方: <ruby>P3 Craft<rt>ピースリークラフト</rt></ruby> / P3クラフト</p>
+  <p class="slogan" lang="ja">最小の操作で、最大の便利さを。</p>
+  <p class="slogan" lang="en">Minimum effort. Maximum ease.</p>
 
   <!-- サービス -->
   <div class="services">
@@ -267,8 +276,8 @@
 
 <!-- フッター -->
 <footer>
-  <span lang="ja">&copy; 2026 P3 Craft. All rights reserved.</span>
-  <span lang="en">&copy; 2026 P3 Craft. All rights reserved.</span>
+  <span lang="ja">P3 Craft（ピースリー・クラフト）&nbsp;&middot;&nbsp;&copy; 2026 All rights reserved.</span>
+  <span lang="en">P3 Craft &nbsp;&middot;&nbsp;&copy; 2026 All rights reserved.</span>
 </footer>
 
 <script>
