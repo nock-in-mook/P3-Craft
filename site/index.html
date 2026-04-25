@@ -108,27 +108,22 @@
     text-align: center;
   }
 
+  h1 {
+    margin: 0 0 32px 0;
+    line-height: 0;
+  }
   .logo-icon {
-    width: 140px;
-    height: 140px;
-    margin-bottom: 32px;
+    width: 160px;
+    height: 160px;
     filter: drop-shadow(0 4px 20px rgba(0,0,0,0.08));
   }
-
-  h1 {
-    font-size: 48px;
-    font-weight: 800;
-    margin-bottom: 8px;
-    letter-spacing: 2px;
-  }
-  h1 .p3 { color: var(--green); }
-  h1 .craft { color: var(--orange); }
 
   .tagline {
     font-size: 18px;
     color: #666;
     margin-bottom: 48px;
     line-height: 1.6;
+    margin-top: 8px;
   }
 
   /* サービス */
@@ -203,9 +198,8 @@
 
   /* レスポンシブ */
   @media (max-width: 600px) {
-    h1 { font-size: 36px; }
     .services { flex-direction: column; align-items: center; }
-    .logo-icon { width: 100px; height: 100px; }
+    .logo-icon { width: 120px; height: 120px; }
   }
 </style>
 </head>
@@ -219,8 +213,7 @@
 
 <!-- ヒーロー -->
 <section class="hero">
-  <img src="logo.png" alt="P3 Craft" class="logo-icon">
-  <h1><span class="p3">P3</span> <span class="craft">Craft</span></h1>
+  <h1><img src="logo.png" alt="P3 Craft" class="logo-icon"></h1>
 
   <p class="tagline" lang="ja">アプリの企画・開発・運営</p>
   <p class="tagline" lang="en">App Planning, Development & Operations</p>
