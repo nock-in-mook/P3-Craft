@@ -55,7 +55,8 @@
     --orange: #e67e22;
     --dark: #1a1a2e;
     --text: #2c3e50;
-    --bg: #fafafa;
+    --bg: #ffffff;
+    --card-bg: #fafafa;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -136,11 +137,11 @@
     justify-content: center;
   }
   .service-card {
-    background: white;
+    background: var(--card-bg);
     border-radius: 16px;
     padding: 28px 24px;
     width: 220px;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    border: 1px solid #eee;
     text-align: center;
   }
   .service-card .icon {
@@ -162,7 +163,7 @@
   .contact {
     text-align: center;
     padding: 40px 24px;
-    background: white;
+    background: var(--bg);
     border-top: 1px solid #eee;
   }
   .contact h2 {
