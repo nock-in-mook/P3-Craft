@@ -34,10 +34,18 @@
   "@type": "Organization",
   "name": "P3 Craft",
   "url": "https://p3craft.com",
-  "logo": "https://p3craft.com/logo.svg",
+  "logo": "https://p3craft.com/logo.png",
   "email": "info@p3craft.com",
   "description": "モバイルアプリの企画・開発・運営",
   "foundingDate": "2026",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "道玄坂1-10-8 渋谷道玄坂東急ビル2F-C",
+    "addressLocality": "渋谷区",
+    "addressRegion": "東京都",
+    "postalCode": "150-0043",
+    "addressCountry": "JP"
+  },
   "sameAs": []
 }
 </script>
@@ -104,6 +112,8 @@
     width: 140px;
     height: 140px;
     margin-bottom: 32px;
+    border-radius: 28px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
   }
 
   h1 {
@@ -174,6 +184,12 @@
   .contact a:hover {
     text-decoration: underline;
   }
+  .contact .address {
+    margin-top: 16px;
+    font-size: 13px;
+    color: #888;
+    line-height: 1.6;
+  }
 
   /* フッター */
   footer {
@@ -204,7 +220,7 @@
 
 <!-- ヒーロー -->
 <section class="hero">
-  <img src="logo.svg" alt="P3 Craft" class="logo-icon">
+  <img src="logo.png" alt="P3 Craft" class="logo-icon">
   <h1><span class="p3">P3</span> <span class="craft">Craft</span></h1>
 
   <p class="tagline" lang="ja">アプリの企画・開発・運営</p>
@@ -241,6 +257,8 @@
   <h2 lang="ja">お問い合わせ</h2>
   <h2 lang="en">Contact</h2>
   <a href="mailto:info@p3craft.com">info@p3craft.com</a>
+  <p class="address" lang="ja">〒150-0043 東京都渋谷区道玄坂1-10-8 渋谷道玄坂東急ビル2F-C</p>
+  <p class="address" lang="en">2F-C, Shibuya Dogenzaka Tokyu Bldg., 1-10-8 Dogenzaka, Shibuya-ku, Tokyo 150-0043, Japan</p>
 </section>
 
 <!-- フッター -->
